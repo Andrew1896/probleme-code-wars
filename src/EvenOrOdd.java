@@ -14,7 +14,7 @@ public class EvenOrOdd {
 
             Scanner scanner = new Scanner(System.in);
             while (true) {
-                System.out.print("Introduceți un număr sau tastă 'q' pentru a ieși: ");
+                System.out.print("Introduceți un număr sau tasta 'q' pentru a ieși: ");
                 String input = scanner.next();
 
                 if (input.equalsIgnoreCase("q")) {
@@ -26,7 +26,7 @@ public class EvenOrOdd {
                     String result = evenOrOdd(num);
                     System.out.println("Numărul introdus este " + result + ".");
                 } catch (NumberFormatException e) {
-                    System.out.println("Introduceți un număr valid sau tastă 'q' pentru a ieși.");
+                    System.out.println("Introduceți un număr sau tasta 'q' pentru a ieși.");
                 }
             }
         }
