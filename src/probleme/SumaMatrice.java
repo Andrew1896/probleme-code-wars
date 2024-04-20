@@ -1,3 +1,5 @@
+package probleme;
+
 public class SumaMatrice {
         public static double sumaMatrice(double[][] matrice) {
             double suma = 0;

@@ -1,3 +1,5 @@
+package probleme;
+
 import java.util.Arrays;
 
 public class SumWithoutExtremes {

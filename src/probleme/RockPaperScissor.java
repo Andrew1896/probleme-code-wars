@@ -1,3 +1,5 @@
+package probleme;
+
 public class RockPaperScissor {
 
     public static String play(String player1, String player2) {

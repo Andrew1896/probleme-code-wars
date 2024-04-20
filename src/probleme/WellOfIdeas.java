@@ -1,3 +1,5 @@
+package probleme;
+
 public class WellOfIdeas {
 
     public static String checkIdea(String[] x) {
